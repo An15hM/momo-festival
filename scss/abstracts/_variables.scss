@@ -1,0 +1,25 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+/// @type List
+$text-font-stack: 'Satoshi', sans-serif;
+
+/// Code (monospace) font family
+/// @type List
+$title-font-stack: 'Satoshi', sans-serif;
+
+/// Copy text color
+/// @type Color
+// $text-color: #121416 !default;
+$text-color: #2A2B2A !default;
+/// Main brand color
+/// @type Color
+$black-color: #0E0101;
+$white-color: #FFFFFF;
+$secondary-white:#f4f4f6;
+
+$primary-color:#fca311;
+$secondary-color:#FFCF40;
+$primary-accent:#FB9206;
+$secondary-accent:#fff5ec;
