@@ -55,6 +55,13 @@ header{
   font-size:18px;
   line-height:48px
 }
+.nav-brand img{
+  height: 60px;
+  filter: brightness(0) invert(1);
+}
+.sticky .nav-brand img{
+  filter: brightness(1) invert(0);
+}
 .nav-logo>img{
   height:48px;
   margin:11px auto;
@@ -796,6 +803,7 @@ header{
 
 .sticky{
   background-color: #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   .nav-menu > li > a:not(.button-34){
     color:$black-color;
   }

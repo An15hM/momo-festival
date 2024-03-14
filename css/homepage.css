@@ -388,9 +388,9 @@ body {
 }
 
 .button-34 {
-  background: #fca311;
+  background: #62101e;
   border-radius: 999px;
-  box-shadow: #fca311 0 10px 20px -10px;
+  box-shadow: #62101e 0 10px 20px -10px;
   box-sizing: border-box;
   color: #FFFFFF !important;
   cursor: pointer;
@@ -399,11 +399,15 @@ body {
   line-height: 24px;
   opacity: 1;
   outline: 0 solid transparent;
+  transition: all 0.25s ease-in-out;
   padding: 8px 18px;
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
   border: 0;
+}
+.button-34:hover {
+  background-color: #ff9c9f;
 }
 
 header {
@@ -473,6 +477,15 @@ header {
 .navigation-portrait .nav-brand {
   font-size: 18px;
   line-height: 48px;
+}
+
+.nav-brand img {
+  height: 60px;
+  filter: brightness(0) invert(1);
+}
+
+.sticky .nav-brand img {
+  filter: brightness(1) invert(0);
 }
 
 .nav-logo > img {
@@ -1342,6 +1355,7 @@ header {
 }
 .sticky {
   background-color: #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .sticky .nav-menu > li > a:not(.button-34) {
   color: #0E0101;
@@ -1366,7 +1380,7 @@ footer .head-title .subtitle {
   margin-bottom: 15px;
 }
 footer .head-title .break {
-  color: #fca311;
+  color: #62101e;
 }
 footer .map-wrapper {
   overflow: hidden;
@@ -1416,7 +1430,7 @@ footer .contact_info_sec .info_single {
 }
 
 .bg-primary {
-  background-color: #fca311 !important;
+  background-color: #62101e !important;
 }
 
 #landing {
@@ -1558,7 +1572,7 @@ footer .contact_info_sec .info_single {
   align-items: flex-end;
 }
 #countdown-wrapper .time {
-  color: #fca311;
+  color: #62101e;
   font-size: 6em;
   font-weight: 800;
   line-height: 1;
@@ -1606,12 +1620,12 @@ footer .contact_info_sec .info_single {
 #about .about-title .year {
   display: inline-block;
   font-size: 42px;
-  color: #fca311;
+  color: #62101e;
 }
 #about .about-title .place {
   display: inline-block;
   font-size: 42px;
-  color: #fca311;
+  color: #62101e;
 }
 #about .about-details {
   font-weight: 700;
@@ -1639,7 +1653,7 @@ footer .contact_info_sec .info_single {
   margin-bottom: 15px;
 }
 #features .head-title .break {
-  color: #fca311;
+  color: #62101e;
 }
 #features .highlight-card {
   padding: 25px;
@@ -1684,7 +1698,7 @@ footer .contact_info_sec .info_single {
   display: block;
 }
 #vendor-stall .stall-ticke .food {
-  color: #fca311;
+  color: #62101e;
 }
 #vendor-stall p {
   text-align: justify;
@@ -1710,7 +1724,7 @@ footer .contact_info_sec .info_single {
   margin-bottom: 15px;
 }
 #sponsors .head-title .break {
-  color: #fca311;
+  color: #62101e;
 }
 #sponsors .sponsor-image {
   display: flex;
